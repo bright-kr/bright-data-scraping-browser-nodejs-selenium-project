@@ -1,8 +1,8 @@
 # Bright Data Scraping Browser Nodejs Selenium Project
 
-[![Bright Data Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/)
+[![Bright Data Promo](https://github.com/bright-kr/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/)
 
-<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-nodejs-selenium-project?file=%2Findex.js" target="_blank" rel="noopener">CodeSandbox에서 열기</a>, GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
+<a href="https://codesandbox.io/p/devbox/github/bright-kr/bright-data-scraping-browser-nodejs-selenium-project?file=%2Findex.js" target="_blank" rel="noopener">CodeSandbox에서 열기</a>, GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
 
 이 프로젝트는 Selenium WebDriver를 사용하여 웹사이트에서 데이터를 スクレイピング하기 위해 <a href="https://brightdata.co.kr/products/scraping-browser" target="_blank" rel="noopener">Bright Data Scraping Browser</a>를 사용하는 방법을 보여줍니다.
 
