@@ -2,7 +2,7 @@
 
 이 프로젝트는 Bright Data의 Scraping Browser를 Selenium WebDriver와 함께 사용하여 Booking.com에서 호텔을 검색하는 방법을 보여줍니다. 자동화된 브라우저 제어를 통한 Webスクレイピング의 실용적인 예제를 제공합니다.
 
-<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-selenium-webdriver-project?file=%2Fbooking-hotel-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>를 열고 GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
+<a href="https://codesandbox.io/p/devbox/github/bright-kr/bright-data-scraping-browser-selenium-webdriver-project?file=%2Fbooking-hotel-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>를 열고 GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
 
 ### 시작하기
 
