@@ -1,35 +1,35 @@
 # Bright Data Amazon Product Scraper with Selenium WebDriver
 
-This project demonstrates how to use Bright Data's Scraping Browser with Selenium WebDriver to search for products on Amazon.com. It provides a practical example of web scraping with automated browser control.
+이 프로젝트는 Selenium WebDriver와 함께 Bright Data의 Scraping Browser를 사용하여 Amazon.com에서 제품을 검색하는 방법을 보여줍니다. 자동화된 브라우저 제어를 통한 Webスクレイピング의 실용적인 예제를 제공합니다.
 
-<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>, sign in with GitHub account, then fork the repository to begin making changes.
+<a href="https://codesandbox.io/p/devbox/github/luminati-io/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>를 열고 GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
 
 ### Getting Started
 
-1. Replace the `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` value with your actual Bright Data scraping browser endpoint in `amazon-product-scraping.js`:
-2. Run `node amazon-product-scraping.js` to start scraping
+1. `amazon-product-scraping.js`에서 `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` 값을 실제 Bright Data scraping browser エンドポイント로 교체하십시오:
+2. `node amazon-product-scraping.js`를 실행하여 スクレイピング을 시작하십시오
 
 
 ## 💻 Usage
 
-1. Modify search parameters in `amazon-product-scraping.js`:
+1. `amazon-product-scraping.js`에서 검색 パラメータ를 수정하십시오:
    ```javascript
    const SEARCH_TERM = "laptop";   // Change to your search term
    ```
 
-2. Run the script:
+2. 스크립트를 실행하십시오:
    ```bash
    node amazon-product-scraping.js
    ```
 
 ## 🔍 How It Works
 
-The script uses Selenium WebDriver to:
-1. Connect to Bright Data's Scraping Browser
-2. Navigate to Amazon.com
-3. Search for products using the specified search term
-4. Extract product information (title, price, rating)
-5. Display the results in a formatted way
+이 스크립트는 Selenium WebDriver를 사용하여 다음을 수행합니다:
+1. Bright Data의 Scraping Browser에 연결합니다
+2. Amazon.com으로 이동합니다
+3. 지정된 검색어를 사용해 제품을 검색합니다
+4. 제품 정보(제목, 가격, 평점)를 추출합니다
+5. 결과를 형식화된 방식으로 표시합니다
 
 ```javascript
 // Initialize the WebDriver using Bright Data's Scraping Browser
