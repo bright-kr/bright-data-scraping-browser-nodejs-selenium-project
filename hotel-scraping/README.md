@@ -1,18 +1,18 @@
-# Bright Data 호텔 검색 スクレイピング(스크레이퍼) with Selenium WebDriver
+# Bright Data 호텔 검색 스크레이핑(스크레이퍼) with Selenium WebDriver
 
-이 프로젝트는 Bright Data의 Scraping Browser를 Selenium WebDriver와 함께 사용하여 Booking.com에서 호텔을 검색하는 방법을 보여줍니다. 자동화된 브라우저 제어를 통한 Webスクレイピング의 실용적인 예제를 제공합니다.
+이 프로젝트는 Bright Data의 Scraping Browser를 Selenium WebDriver와 함께 사용하여 Booking.com에서 호텔을 검색하는 방법을 보여줍니다. 자동화된 브라우저 제어를 통한 Web스크레이핑의 실용적인 예제를 제공합니다.
 
 <a href="https://codesandbox.io/p/devbox/github/bright-kr/bright-data-scraping-browser-selenium-webdriver-project?file=%2Fbooking-hotel-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>를 열고 GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
 
 ### 시작하기
 
-1. `booking-hotel-scraping.js`에서 `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` 값을 실제 Bright Data スクレイピング 브라우저 エンドポイント로 교체하십시오.
-2. `node booking-hotel-scraping.js`를 실행하여 スクレイピング을 시작하십시오.
+1. `booking-hotel-scraping.js`에서 `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` 값을 실제 Bright Data 스크레이핑 브라우저 엔드포인트로 교체하십시오.
+2. `node booking-hotel-scraping.js`를 실행하여 스크레이핑을 시작하십시오.
 
 
 ## 💻 사용 방법
 
-1. `booking-hotel-scraping.js`에서 검색 パラメータ를 수정하십시오:
+1. `booking-hotel-scraping.js`에서 검색 매개변수를 수정하십시오:
    ```javascript
    const SEARCH_LOCATION = "New York";  // Change to your desired location
    const CHECK_IN_DAYS_FROM_NOW = 1;    // Adjust check-in date

@@ -1,18 +1,18 @@
 # Bright Data Amazon Product Scraper with Selenium WebDriver
 
-이 프로젝트는 Selenium WebDriver와 함께 Bright Data의 Scraping Browser를 사용하여 Amazon.com에서 제품을 검색하는 방법을 보여줍니다. 자동화된 브라우저 제어를 통한 Webスクレイピング의 실용적인 예제를 제공합니다.
+이 프로젝트는 Selenium WebDriver와 함께 Bright Data의 Scraping Browser를 사용하여 Amazon.com에서 제품을 검색하는 방법을 보여줍니다. 자동화된 브라우저 제어를 통한 Web스크레이핑의 실용적인 예제를 제공합니다.
 
 <a href="https://codesandbox.io/p/devbox/github/bright-kr/bright-data-scraping-browser-nodejs-selenium-project?file=%2Famazon-product-scraping.js" target="_blank" rel="noopener">Open in CodeSandbox</a>를 열고 GitHub 계정으로 로그인한 다음, 변경을 시작하기 위해 리포지토리를 fork하십시오.
 
 ### Getting Started
 
-1. `amazon-product-scraping.js`에서 `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` 값을 실제 Bright Data scraping browser エンドポイント로 교체하십시오:
-2. `node amazon-product-scraping.js`를 실행하여 スクレイピング을 시작하십시오
+1. `amazon-product-scraping.js`에서 `YOUR_BRIGHT_DATA_SCRAPING_BROWSER_ENDPOINT` 값을 실제 Bright Data scraping browser 엔드포인트로 교체하십시오:
+2. `node amazon-product-scraping.js`를 실행하여 스크레이핑을 시작하십시오
 
 
 ## 💻 Usage
 
-1. `amazon-product-scraping.js`에서 검색 パラメータ를 수정하십시오:
+1. `amazon-product-scraping.js`에서 검색 매개변수를 수정하십시오:
    ```javascript
    const SEARCH_TERM = "laptop";   // Change to your search term
    ```
